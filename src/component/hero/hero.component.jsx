@@ -2,6 +2,8 @@ import React from 'react';
 
 import './hero.style.scss';
 
+import { SocialMedia } from '../social-media/social-media.component';
+
 export const Hero = () => (
   <section id="hero" className="s-hero target-section">
 
@@ -9,25 +11,12 @@ export const Hero = () => (
 
     <div className="row s-hero__content">
       <div className="column">
-
         <div className="s-hero__content-about">
-
           <h1>I'm Jonathan Doe.</h1>
 
-          <h3>
-            I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-              effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-              and learn more <a className="smoothscroll" href="#about">about me</a>.
-              </h3>
+          <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a> and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
 
-          <div className="s-hero__content-social">
-            <a href="#0"><i className="fab fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="#0"><i className="fab fa-twitter" aria-hidden="true"></i></a>
-            <a href="#0"><i className="fab fa-instagram" aria-hidden="true"></i></a>
-            <a href="#0"><i className="fab fa-dribbble" aria-hidden="true"></i></a>
-            <a href="#0"><i className="fab fa-behance" aria-hidden="true"></i></a>
-            <a href="#0"><i className="fab fa-linkedin" aria-hidden="true"></i></a>
-          </div>
+          <SocialMedia />
 
         </div>
 
