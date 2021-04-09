@@ -5,6 +5,7 @@ import './App.css';
 import { Header } from './component/header/header.component';
 import { About } from './component/about/about.component';
 import { Resume } from './component/resume/resume.component';
+import { Portfolio } from './component/portfolio/portfolio.component';
 import { Contact } from './component/contact/contact.component';
 import { Testimonial } from './component/testimonial/testimonial.component';
 import { CallToAction } from './component/cta/call-to-action.component';
@@ -18,6 +19,7 @@ function App() {
       <main>
         <About />
         <Resume />
+        <Portfolio />
         <CallToAction />
         <Testimonial />
         <Contact />
