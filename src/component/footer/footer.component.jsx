@@ -2,8 +2,8 @@ import React from 'react';
 
 import './footer.style.scss';
 
-import { SocialMedia } from '../social-media/social-media.component'
-import { BackToTop } from '../back-to-top/back-to-top.component';
+import SocialMedia from '../social-media/social-media.component'
+import { BackToTop } from '../custom-button/custom-button.component';
 
 export const Footer = () => (
   <footer class='s-footer'>
@@ -19,5 +19,6 @@ export const Footer = () => (
     </div>
 
     <BackToTop />
+    
   </footer>
 )
