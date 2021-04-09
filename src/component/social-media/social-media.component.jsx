@@ -2,7 +2,7 @@ import React from 'react';
 
 import './social-media.style.scss';
 
-export const SocialMedia = () => (
+const SocialMedia = () => (
   <div className='s-hero__content-social'>
     <a aria-hidden='true' onClick={(e) => {e.preventDefault()}} href='#/'><i className='fab fa-facebook-square' /></a>
     <a aria-hidden='true' onClick={(e) => {e.preventDefault()}} href='#/'><i className='fab fa-twitter' /></a>
@@ -12,3 +12,5 @@ export const SocialMedia = () => (
     <a aria-hidden='true' onClick={(e) => {e.preventDefault()}} href='#/'><i className='fab fa-linkedin' /></a>
   </div>
 )
+
+export default SocialMedia;
