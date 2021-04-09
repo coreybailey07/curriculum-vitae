@@ -6,6 +6,7 @@ import { Nav } from './component/nav/nav.component';
 import { Hero } from './component/hero/hero.component';
 import { About } from './component/about/about.component';
 import { Footer } from './component/footer/footer.component';
+import { Contact } from './component/contact/contact.component';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Contact />
       </main>
       <Footer />
     </div>
