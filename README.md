@@ -9,4 +9,6 @@ This repository is used to generate my personal website, [coreybailey.org](http:
 
 ## About
 
-This is a fork of Ceevee 2.0 updated with React 17. This code is released under the [MIT License](LICENSE.txt).
+This is a fork of Ceevee 2.0 using React 17. A project excercise so I could become more familiar with React and building out SPA pages.
+
+This code is released under the [MIT License](LICENSE.txt).
