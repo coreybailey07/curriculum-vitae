@@ -4,7 +4,7 @@ import './skills.style.scss';
 
 import { SkillBars } from '../skill-bars/skill-bars.component';
 
-export const Skill = () => (
+export const Skills = () => (
   <div className='row s-resume__section'>
     <div className='column large-3 tab-12'>
       <h3 className='section-header-allcaps'>Skills</h3>

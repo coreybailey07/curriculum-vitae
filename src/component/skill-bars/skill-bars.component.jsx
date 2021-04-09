@@ -2,7 +2,7 @@ import React from 'react';
 
 import './skill-bars.style.scss';
 
-export const SkillBar = () => (
+export const SkillBars = () => (
   <ul className='skill-bars-fat'>
     <li>
       <div className='progress percent85'></div>
