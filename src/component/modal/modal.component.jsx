@@ -2,7 +2,7 @@ import React from 'react';
 
 import './modal.style.scss';
 
-export const Modal = () => (
+const Modal = () => (
   <div>
     <div id='modal-01' hidden>
       <div className='modal-popup'>
@@ -137,3 +137,5 @@ export const Modal = () => (
     </div>
   </div>
 )
+
+export default Modal;

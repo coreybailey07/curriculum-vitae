@@ -2,12 +2,14 @@ import React from 'react';
 
 import './resume.style.scss';
 
-import { Skills } from '../skills/skills.component';
-import { Education } from '../education/education.component';
-import { Career } from '../career/career.component';
+import Skills from '../skills/skills.component';
+import Education from '../education/education.component';
+import Career from '../career/career.component';
 
-export const Resume = () => (
+const Resume = () => (
   <section id='resume' className='s-resume target-section'>
+
+    <Resume2 />
 
     <Career />
 
@@ -17,3 +19,5 @@ export const Resume = () => (
 
   </section>
 )
+
+export default Resume;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './call-to-action.style.scss';
 
-export const CallToAction = () => (
+const CallToAction = () => (
     <section className='s-cta'>
 
         <div className='row'>
@@ -27,3 +27,5 @@ export const CallToAction = () => (
 
     </section>
 )
+
+export default CallToAction;

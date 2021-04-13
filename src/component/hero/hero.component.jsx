@@ -4,7 +4,7 @@ import './hero.style.scss';
 
 import SocialMedia from '../social-media/social-media.component';
 
-export const Hero = () => (
+const Hero = () => (
   <section id='hero' className='s-hero target-section'>
 
     <div className='s-hero__bg rellax' data-rellax-speed='-7'></div>
@@ -35,3 +35,5 @@ export const Hero = () => (
 
   </section>
 )
+
+export default Hero;

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './education.style.scss';
 
-export const Education = () => (
+const Education = () => (
   <div className='row s-resume__section'>
   <div className='column large-3 tab-12'>
     <h3 className='section-header-allcaps'>Education</h3>
@@ -52,3 +52,5 @@ export const Education = () => (
   </div>
 </div>
 )
+
+export default Education;

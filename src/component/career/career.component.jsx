@@ -2,7 +2,7 @@ import React from 'react';
 
 import './career.style.scss';
 
-export const Career = () => (
+const Career = () => (
   <div className='row s-resume__section'>
   <div className='column large-3 tab-12'>
     <h3 className='section-header-allcaps'>Career</h3>
@@ -52,3 +52,5 @@ export const Career = () => (
   </div>
 </div>
 )
+
+export default Career;

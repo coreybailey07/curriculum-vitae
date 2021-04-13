@@ -2,7 +2,7 @@ import React from 'react';
 
 import './portfolio.style.scss';
 
-export const Portfolio = () => (
+const Portfolio = () => (
   <section id='portfolio' className='s-portfolio target-section'>
 
     <div className='row s-portfolio__header'>
@@ -215,3 +215,5 @@ export const Portfolio = () => (
   </section>
 
 )
+
+export default Portfolio;
