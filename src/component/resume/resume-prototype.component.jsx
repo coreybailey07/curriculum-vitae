@@ -46,9 +46,8 @@ const ResumePrototype = () => {
   ];
 
   return (
+    resume.map((res, i) => (
     <div className='row s-resume__section'>
-      {resume.map((res, i) => (
-        <React.Fragment key={i}>
           <div className='column large-3 tab-12'>
             <h3 className='section-header-allcaps'>{res.section}</h3>
           </div>
@@ -71,9 +70,8 @@ const ResumePrototype = () => {
               </div>
             ))}
           </div>
-        </React.Fragment>
-      ))}
     </div>
+    ))
   )
 }
 
