@@ -3,7 +3,7 @@ import React from 'react';
 import './call-to-action.style.scss';
 
 const CallToAction = () => (
-    <section className='s-cta'>
+    <section id="call-to-action" className='s-cta'>
 
         <div className='row'>
             <div className='column'>
