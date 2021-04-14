@@ -4,27 +4,48 @@ import './skills.style.scss';
 
 import SkillBars from '../skill-bars/skill-bars.component';
 
-const Skills = () => (
-  <div className='row s-resume__section'>
-    <div className='column large-3 tab-12'>
-      <h3 className='section-header-allcaps'>Skills</h3>
-    </div>
-    <div className='column large-9 tab-12'>
-      <div className='resume-block'>
+const Skills = () => {
 
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
-          vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae
-          aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam
-          nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.
-        </p>
+  const data = [
+    {
+      section: "Skills",
+      type: [{
+        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet. Vitae aut atque fuga dolorem. Vel voluptatibus fugiat nam. Impedit aperiam nesciunt facilis! Porro architecto dicta inventore tempora ratione quia odio.",
+        listItems: [
+          {
+            item: "Inventore vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet."
+          },
+          {
+            item: "Inventore vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet."
+          },
+          {
+            item: "Inventore vero quidem nobis maxime dolorem aliquam quisquam eum ipsum amet."
+          }
+        ]
+      }]
+    }
+  ];
 
-        <SkillBars />
+  return (
+    data.map((sk, i) => (
+      <div className='row s-resume__section'>
+        <div className='column large-3 tab-12'>
+          <h3 className='section-header-allcaps'>{sk.section}</h3>
+        </div>
+        <div className='column large-9 tab-12'>
+          {sk.type.map((typ, j) => (
+            <div key={j + 1} className='resume-block'>
 
+              <p>{typ.description}</p>
+
+              <SkillBars/>
+
+            </div>
+          ))}
+        </div>
       </div>
+    ))
+  )
+}
 
-    </div>
-  </div>
-)
-
-export default Skills
+export default Skills;
