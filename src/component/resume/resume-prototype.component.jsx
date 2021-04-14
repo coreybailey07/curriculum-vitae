@@ -47,30 +47,30 @@ const ResumePrototype = () => {
 
   return (
     resume.map((res, i) => (
-    <div className='row s-resume__section'>
-          <div className='column large-3 tab-12'>
-            <h3 className='section-header-allcaps'>{res.section}</h3>
-          </div>
-          <div className='column large-9 tab-12'>
-            {res.position.map((pos, j) => (
-              <div key={j+1} className='resume-block'>
+      <div className='row s-resume__section'>
+        <div className='column large-3 tab-12'>
+          <h3 className='section-header-allcaps'>{res.section}</h3>
+        </div>
+        <div className='column large-9 tab-12'>
+          {res.position.map((pos, j) => (
+            <div key={j + 1} className='resume-block'>
 
-                <div className='resume-block__header'>
-                  <h4 className='h3'>{pos.company}</h4>
-                  <p className='resume-block__header-meta'>
-                    <span>{pos.title}</span>
-                    <span className='resume-block__header-date'>
-                      {pos.from} - {pos.to}
-                    </span>
-                  </p>
-                </div>
-
-                <p>{pos.description}</p>
-
+              <div className='resume-block__header'>
+                <h4 className='h3'>{pos.company}</h4>
+                <p className='resume-block__header-meta'>
+                  <span>{pos.title}</span>
+                  <span className='resume-block__header-date'>
+                    {pos.from} - {pos.to}
+                  </span>
+                </p>
               </div>
-            ))}
-          </div>
-    </div>
+
+              <p>{pos.description}</p>
+
+            </div>
+          ))}
+        </div>
+      </div>
     ))
   )
 }
