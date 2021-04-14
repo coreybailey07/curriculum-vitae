@@ -13,11 +13,8 @@ const Resume = () => (
     <ResumePrototype />
     
     <Career />
-
     <Education />
-
     <Skills />
-
   </section>
 )
 
