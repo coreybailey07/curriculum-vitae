@@ -22,7 +22,7 @@ const SkillBars = () => {
     <ul className='skill-bars-fat'>
       {data.map((skl, i) => (
         <li key={i} className="progress-bar">
-          <div style={{ width: skl.compentancy + '%' }}><span className="skill">{skl.name}</span><span className="compentancy">{skl.compentancy + '%'}</span></div>
+          <div style={{ width: skl.compentancy + '%' }}><span className="skill">{skl.name}</span><span className="compentancy"> {skl.compentancy + '%'}</span></div>
         </li>
       ))}
     </ul>
