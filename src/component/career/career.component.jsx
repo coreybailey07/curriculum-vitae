@@ -37,7 +37,7 @@ const Career = () => {
 
   return (
     data.map((car, i) => (
-      <div className='row s-resume__section'>
+      <div key={i} className='row s-resume__section'>
         <div className='column large-3 tab-12'>
           <h3 className='section-header-allcaps'>{car.section}</h3>
         </div>
