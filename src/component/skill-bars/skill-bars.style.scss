@@ -5,7 +5,7 @@
 
   li {
     height: auto;
-    background: #d0d1d1;
+    background:#D0D1D1;
     margin-bottom: 15px;
     padding: 0;
     position: relative;
@@ -18,13 +18,12 @@
   overflow: hidden;
 
   & > div {
-    color: white;
-    background: black;
     overflow: hidden;
-    white-space: nowrap;
     border-radius: 3px 0 0 3px;
+    background: black;
+    white-space: nowrap;
+    color: #FFFFFF;
     animation: progress-bar 3s;
-    color:#838C95;
 
     & > .skill {
       display: block;
@@ -40,7 +39,7 @@
       right: 0;
       line-height: 42px;
       padding: 0 10px;
-
+      color:#838C95;
     }
   }
 }
