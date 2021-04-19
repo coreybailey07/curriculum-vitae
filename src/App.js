@@ -12,21 +12,29 @@ import { CallToAction } from './component/call-to-action/call-to-action.componen
 import Footer from './component/footer/footer.component';
 
 
-function App() {
-  return (
-    <div className='App'>
-      <Header />
-      <main>
-        <About />
-        <Resume />
-        <Portfolio />
-        <CallToAction />
-        <Testimonial />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className='App'>
+        <Header />
+        <main>
+          <About />
+          <Resume />
+          <Portfolio />
+          <CallToAction />
+          <Testimonial />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
