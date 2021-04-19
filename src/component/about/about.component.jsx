@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './about.component.jsx';
+import './about.style.scss';
 
 const About = () => (
   <section id='about' className='s-about target-section'>
