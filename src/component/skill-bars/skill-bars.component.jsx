@@ -4,25 +4,25 @@ import './skill-bars.style.scss';
 
 export const SkillBars = () => {
 
-  const data = [
-    { name: "HTML", compentancy: 100 },
-    { name: "CSS", compentancy: 100 },
-    { name: "JavaScript", compentancy: 90 },
-    { name: "Bootstrap", compentancy: 80 },
-    { name: "jQuery", compentancy: 85 },
-    { name: "React", compentancy: 75 },
-    { name: "Angular", compentancy: 65 },
-    { name: "Photoshop", compentancy: 80 },
-    { name: "Figma", compentancy: 50 },
-    { name: "MongoDB", compentancy: 45 },
-    { name: "SQL", compentancy: 40 }
+  const bars = [
+    { skill: "HTML", compentancy: 100 },
+    { skill: "CSS", compentancy: 100 },
+    { skill: "JavaScript", compentancy: 90 },
+    { skill: "Bootstrap", compentancy: 80 },
+    { skill: "jQuery", compentancy: 85 },
+    { skill: "React", compentancy: 75 },
+    { skill: "Angular", compentancy: 65 },
+    { skill: "Photoshop", compentancy: 80 },
+    { skill: "Figma", compentancy: 50 },
+    { skill: "MongoDB", compentancy: 45 },
+    { skill: "SQL", compentancy: 40 }
   ];
 
   return (
     <ul className='skill-bars-fat'>
-      {data.map((skl, i) => (
+      {bars.map((bar, i) => (
         <li key={i} className="progress-bar">
-          <div style={{ width: skl.compentancy + '%' }}><span className="skill">{skl.name}</span><span className="compentancy"> {skl.compentancy + '%'}</span></div>
+          <div style={{ width: bar.compentancy + '%' }}><span className="skill">{bar.skill}</span><span className="compentancy"> {bar.compentancy + '%'}</span></div>
         </li>
       ))}
     </ul>
