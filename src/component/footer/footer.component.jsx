@@ -5,22 +5,39 @@ import './footer.style.scss';
 import SocialMedia from '../social-media/social-media.component'
 import BackToTop from '../custom-button/custom-button.component';
 
-const Footer = () => (
-  <footer className='s-footer'>
-    <div className='row'>
-      <div className='column large-4 medium-6 w-1000-stack s-footer__social-block'>
-        <SocialMedia/>
-      </div>
+class Footer extends React.Component {
+  constructor() {
+    super();
 
-      <div className='column large-7 medium-6 w-1000-stack ss-copyright'>
-        <span>&copy; Copyright Ceevee 2021</span>
-        <span>Design by <a href='https://www.styleshout.com/'>StyleShout</a></span>
-      </div>
-    </div>
+    this.state = {
+      company: [
+        { name: 'Twitter' },
+        { name: 'Facebook' },
+        { name: 'Dribble' }
+      ]
+    };
+  }
 
-    <BackToTop />
-    
-  </footer>
-)
+  render() {
+    return (
+      <footer className='s-footer'>
+        <div className='row'>
+          <div className='column large-4 medium-6 w-1000-stack s-footer__social-block'>
+
+            <SocialMedia company={this.state.company} />
+
+          </div>
+          <div className='column large-7 medium-6 w-1000-stack ss-copyright'>
+            <span>&copy; Copyright Ceevee 2021</span>
+            <span>Design by <a href='https://www.styleshout.com/'>StyleShout</a></span>
+          </div>
+        </div>
+
+        <BackToTop />
+
+      </footer>
+    );
+  }
+}
 
 export default Footer;

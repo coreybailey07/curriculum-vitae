@@ -5,11 +5,27 @@ import './header.style.scss';
 import Nav from '../nav/nav.component';
 import Hero from '../hero/hero.component';
 
-const Header = () => (
-  <header>
-    <Nav />
-    <Hero />
-  </header>
-)
+class Header extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      company: [
+        { name: 'Twitter' },
+        { name: 'Facebook' },
+        { name: 'Dribble' }
+      ]
+    };
+  }
+
+  render() {
+    return (
+      <header>
+        <Nav />
+        <Hero />
+      </header>
+    );
+  }
+}
 
 export default Header;
