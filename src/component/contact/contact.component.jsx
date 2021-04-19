@@ -2,7 +2,7 @@ import React from 'react'
 
 import './contact.component.jsx'
 
-const Contact = () => (
+export const Contact = () => (
   <section id='contact' className='s-contact target-section'>
 
     <div className='row s-contact__header'>
@@ -56,5 +56,3 @@ const Contact = () => (
 
   </section>
 )
-
-export default Contact

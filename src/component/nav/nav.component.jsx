@@ -2,7 +2,7 @@ import React from 'react';
 
 import './nav.style.scss';
 
-const Nav = () => {
+export const Nav = () => {
 
   const navLinks = [
     { id: 0, name: "Home", href: "#hero" },
@@ -33,5 +33,3 @@ const Nav = () => {
     </div>
   )
 }
-
-export default Nav;

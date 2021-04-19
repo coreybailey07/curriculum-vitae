@@ -2,7 +2,7 @@ import React from 'react';
 
 import './skill-bars.style.scss';
 
-const SkillBars = () => {
+export const SkillBars = () => {
 
   const data = [
     { name: "HTML", compentancy: 100 },
@@ -28,5 +28,3 @@ const SkillBars = () => {
     </ul>
   )
 }
-
-export default SkillBars;

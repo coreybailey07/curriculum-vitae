@@ -2,7 +2,7 @@ import React from 'react';
 
 import './education.style.scss';
 
-const Education = () => {
+export const Education = () => {
 
   const data = [
     {
@@ -61,5 +61,3 @@ const Education = () => {
     ))
   )
 }
-
-export default Education;

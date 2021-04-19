@@ -2,9 +2,9 @@ import React from 'react';
 
 import './skills.style.scss';
 
-import SkillBars from '../skill-bars/skill-bars.component';
+import { SkillBars } from '../skill-bars/skill-bars.component';
 
-const Skills = () => {
+export const Skills = () => {
 
   const data = [
     {
@@ -47,5 +47,3 @@ const Skills = () => {
     ))
   )
 }
-
-export default Skills;

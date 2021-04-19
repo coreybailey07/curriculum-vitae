@@ -2,7 +2,7 @@ import React from 'react';
 
 import './about.style.scss';
 
-const About = () => (
+export const About = () => (
   <section id='about' className='s-about target-section'>
     <div className='row'>
       <div className='column large-3 tab-12'>
@@ -49,5 +49,3 @@ const About = () => (
     </div>
   </section>
 )
-
-export default About;

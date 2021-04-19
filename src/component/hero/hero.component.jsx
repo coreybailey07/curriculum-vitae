@@ -2,9 +2,9 @@ import React from 'react';
 
 import './hero.style.scss';
 
-import SocialMedia from '../social-media/social-media.component';
+import { SocialMedia } from '../social-media/social-media.component';
 
-const Hero = () => (
+export const Hero = () => (
   <section id='hero' className='s-hero target-section'>
 
     <div className='s-hero__bg rellax' data-rellax-speed='-7'></div>
@@ -35,5 +35,3 @@ const Hero = () => (
 
   </section>
 )
-
-export default Hero;

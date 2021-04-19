@@ -2,7 +2,7 @@ import React from 'react';
 
 import './testimonial.style.scss';
 
-const Testimonial = () => (
+export const Testimonial = () => (
   <section id='testimonial' className='s-testimonials target-section'>
 
     <div className='s-testimonials__bg'></div>
@@ -93,5 +93,3 @@ const Testimonial = () => (
 
   </section>
 )
-
-export default Testimonial;

@@ -2,8 +2,8 @@ import React from 'react';
 
 import './footer.style.scss';
 
-import SocialMedia from '../social-media/social-media.component'
-import BackToTop from '../custom-button/custom-button.component';
+import { SocialMedia } from '../social-media/social-media.component'
+import { BackToTop } from '../custom-button/custom-button.component';
 
 class Footer extends React.Component {
   constructor() {

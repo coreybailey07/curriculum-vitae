@@ -2,8 +2,7 @@ import React from 'react';
 
 import './social-media.style.scss';
 
-const SocialMedia = () => {
-
+export const SocialMedia = (props) => {
   const data = [
     { id:0, name:'Facebook', url:'https://www.facebook.com/', selector:'fab fa-facebook-square' },
     { id:1, name:'Twitter', url:'https://twitter.com/?lang=en', selector:'fab fa-twitter' },
@@ -23,4 +22,3 @@ const SocialMedia = () => {
 
 }
 
-export default SocialMedia;

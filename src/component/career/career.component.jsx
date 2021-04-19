@@ -2,7 +2,7 @@ import React from 'react';
 
 import './career.style.scss';
 
-const Career = () => {
+export const Career = () => {
 
   const data = [
     {
@@ -64,5 +64,3 @@ const Career = () => {
     ))
   )
 }
-
-export default Career;
