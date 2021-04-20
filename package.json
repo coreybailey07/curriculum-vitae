@@ -1,5 +1,5 @@
 {
-  "name": "react-coreybailey.org",
+  "name": "react-curriculum-vitae",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "redux": "^4.0.5",
-    "sass": "^1.32.8",
+    "sass": "^1.32.11",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
     "workbox-broadcast-update": "^5.1.4",
