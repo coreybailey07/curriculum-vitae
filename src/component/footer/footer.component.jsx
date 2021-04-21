@@ -10,14 +10,7 @@ class Footer extends React.Component {
     super();
 
     this.state = {
-      company: [
-        { name: 'Facebook' },
-        { name: 'Twitter' },
-        { name: 'Instagram' },
-        { name: 'Dribbble' },
-        { name: 'Behance' },
-        { name: 'LinkedIn' }
-      ]
+      company: []
     };
   }
 
@@ -27,7 +20,7 @@ class Footer extends React.Component {
         <div className='row'>
           <div className='column large-4 medium-6 w-1000-stack s-footer__social-block'>
 
-            <SocialMedia />
+            <SocialMedia show={['Facebook','Twitter','Instagram','Dribbble','Behance']} />
 
           </div>
           <div className='column large-7 medium-6 w-1000-stack ss-copyright'>
