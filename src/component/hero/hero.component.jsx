@@ -2,7 +2,7 @@ import React from 'react';
 
 import './hero.style.scss';
 
-import { SocialMedia } from '../social-media/social-media.component';
+import SocialMedia from '../social-media/social-media.component';
 
 export const Hero = () => (
   <section id='hero' className='s-hero target-section'>

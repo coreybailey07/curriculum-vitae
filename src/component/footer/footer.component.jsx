@@ -2,7 +2,7 @@ import React from 'react';
 
 import './footer.style.scss';
 
-import { SocialMedia } from '../social-media/social-media.component'
+import SocialMedia from '../social-media/social-media.component'
 import { BackToTop } from '../custom-button/custom-button.component';
 
 class Footer extends React.Component {
@@ -24,7 +24,7 @@ class Footer extends React.Component {
         <div className='row'>
           <div className='column large-4 medium-6 w-1000-stack s-footer__social-block'>
 
-            <SocialMedia company={this.state.company} />
+            <SocialMedia />
 
           </div>
           <div className='column large-7 medium-6 w-1000-stack ss-copyright'>
