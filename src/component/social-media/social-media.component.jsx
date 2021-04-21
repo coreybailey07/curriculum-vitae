@@ -1,6 +1,9 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect';
 
 import './social-media.style.scss';
+import { selectSocialMediaCompany } from '../../redux/social-media/social-media.selector';
 
 export const SocialMedia = (props) => {
   const data = [
@@ -21,4 +24,8 @@ export const SocialMedia = (props) => {
   )
 
 }
+const mapStateToProps = createStructuredSelector({
+  company: selectSocialMediaCompany
+})
 
+export default connect(mapStateToProps)(SocialMedia);
