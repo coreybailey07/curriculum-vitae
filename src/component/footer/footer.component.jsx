@@ -11,9 +11,12 @@ class Footer extends React.Component {
 
     this.state = {
       company: [
-        { name: 'Twitter' },
         { name: 'Facebook' },
-        { name: 'Dribble' }
+        { name: 'Twitter' },
+        { name: 'Instagram' },
+        { name: 'Dribbble' },
+        { name: 'Behance' },
+        { name: 'LinkedIn' }
       ]
     };
   }
