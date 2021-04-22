@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-This repository is an excercise ReactJS component development, [curriculum-vitae](https://coreybailey07.github.io/curriculum-vitae)).
+[Curriculum-Vitae](https://coreybailey07.github.io/curriculum-vitae) is an excercise in ReactJS component development.
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/coreybailey07/curriculum-vitae)
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/coreybailey07/curriculum-vitae?include_prereleases)
@@ -9,6 +9,6 @@ This repository is an excercise ReactJS component development, [curriculum-vitae
 
 ## About
 
-This is a fork of Ceevee 2.0 using React 17. A project excercise so I could become more familiar with React and building out SPAs.
+Curriculum-Vitae builds on the work of [© Copyright Ceevee 2021](LICENSE.txt) design by StyleShout.
 
-This code is released under the [CC BY-SA](LICENSE.txt).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
