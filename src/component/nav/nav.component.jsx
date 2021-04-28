@@ -5,12 +5,12 @@ import './nav.style.scss';
 export const Nav = () => {
 
   const navLinks = [
-    { id: 0, name: "Home", href: "#hero" },
-    { id: 1, name: "About", href: "#about" },
-    { id: 2, name: "Resume", href: "#resume", },
-    { id: 3, name: "Portfolio", href: "#portfolio" },
-    { id: 4, name: "Testimonial", href: "#testimonial" },
-    { id: 5, name: "Say Hello", href: "#contact" }
+    { name: "Home", href: "#hero" },
+    { name: "About", href: "#about" },
+    { name: "Resume", href: "#resume", },
+    { name: "Portfolio", href: "#portfolio" },
+    { name: "Testimonial", href: "#testimonial" },
+    { name: "Say Hello", href: "#contact" }
   ]
 
   return (
@@ -18,9 +18,9 @@ export const Nav = () => {
       <div className='row s-header__nav-wrap'>
         <nav className='s-header__nav'>
           <ul>
-            {navLinks.map((nl) => (
+            {navLinks.map((nl, i) => (
               // The subsequent line is ideal.. add 'class="current"' if first element in map. However, the second line is just add 'current', but display the same on FE.
-              <li key={nl.id} {...(nl.id === 0) && {'className': 'current'}}><a className='smoothscroll' href={nl.href}>{nl.name}</a></li>
+              <li key={i} {...(i === 0) && {'className': 'current'}}><a className='smoothscroll' href={nl.href}>{nl.name}</a></li>
               //<li key={nl.id} className={nl.id === 0 ? 'current' : null}><a className='smoothscroll' href={nl.href}>{nl.name}</a></li>
             ))}
           </ul>
