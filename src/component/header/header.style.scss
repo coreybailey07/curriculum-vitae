@@ -47,48 +47,6 @@
   visibility: visible;
 }
 
-/* -------------------------------------------------------------------
-* ## header nav
-* ------------------------------------------------------------------- */
-.s-header__nav {
-  font-family: var(--font-1);
-  font-size: 1.45rem;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
-
-.s-header__nav ul {
-  display: block;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-.s-header__nav li {
-  list-style: none;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-
-.s-header__nav a {
-  display: block;
-  height: var(--header-height);
-  line-height: var(--header-height);
-  padding: 0 1.6rem;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.s-header__nav a:hover, .s-header__nav a:focus {
-  color: white;
-}
-
-.s-header__nav .current a {
-  color: var(--color-2);
-}
-
 /* ------------------------------------------------------------------- 
 * ## mobile menu toggle 
 * ------------------------------------------------------------------- */
