@@ -9,7 +9,7 @@ export const Nav = () => {
     { name: "About", href: "#about" },
     { name: "Resume", href: "#resume", },
     { name: "Portfolio", href: "#portfolio" },
-    { name: "Testimonial", href: "#testimonial" },
+    { name: "Testimonials", href: "#testimonials" },
     { name: "Say Hello", href: "#contact" }
   ]
 
@@ -18,11 +18,11 @@ export const Nav = () => {
       <div className='row s-header__nav-wrap'>
         <nav className='s-header__nav'>
           <ul>
-            {navLinks.map((nl, i) => (
+             {navLinks.map((nl, i) => (
               // The subsequent line is ideal.. add 'class="current"' if first element in map. However, the second line is just add 'current', but display the same on FE.
               <li key={i} {...(i === 0) && {'className': 'current'}}><a className='smoothscroll' href={nl.href}>{nl.name}</a></li>
               //<li key={nl.id} className={nl.id === 0 ? 'current' : null}><a className='smoothscroll' href={nl.href}>{nl.name}</a></li>
-            ))}
+            ))} 
           </ul>
         </nav>
       </div>
