@@ -1,0 +1,105 @@
+/* ===================================================================
+ * # about
+ *
+ * ------------------------------------------------------------------- */
+ .s-about {
+  --color-border: var(--color-gray-16);
+  background-color: var(--color-gray-17);
+  padding-top: calc(6 * var(--space));
+  padding-bottom: var(--vspace-4);
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.s-about h3 {
+  margin-top: 0;
+  color: white;
+}
+
+.s-about__pic {
+  width: var(--vspace-5);
+  height: var(--vspace-5);
+  border: 1.6rem solid rgba(255, 255, 255, 0.02);
+  border-radius: 50%;
+}
+
+.s-about__content-bottom {
+  margin-top: var(--vspace-2);
+}
+
+.s-about__content-bottom a {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.s-about__content-bottom a:hover, 
+.s-about__content-bottom a:focus {
+  color: white;
+}
+
+.s-about__content-bottom .btn--download {
+  background-color: white;
+  border-color: white;
+  color: black;
+  margin-right: 0;
+}
+
+.s-about__content-bottom .btn--download svg {
+  height: 2rem;
+  width: 2rem;
+  vertical-align: middle;
+  margin-right: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.s-about__content-bottom .btn--download:hover, 
+.s-about__content-bottom .btn--download:focus {
+  background-color: var(--color-2);
+  border-color: var(--color-2);
+}
+
+.s-about__content-bottom .btn--download:hover svg path, 
+.s-about__content-bottom .btn--download:focus svg path {
+  fill: white;
+}
+
+/* ------------------------------------------------------------------- 
+* responsive:
+* about
+* ------------------------------------------------------------------- */
+@media screen and (max-width: 1200px) {
+  .s-about__pic {
+      width: var(--vspace-4_5);
+      height: var(--vspace-4_5);
+      border-width: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .s-about__pic {
+      width: var(--vspace-4);
+      height: var(--vspace-4);
+      border-width: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .s-about {
+      padding-top: var(--vspace-5);
+  }
+  .s-about__pic {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .s-about__content-bottom .btn--download {
+      margin-top: var(--vspace-0_5);
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .s-about__content-bottom .btn--download svg {
+      display: none;
+  }
+}
