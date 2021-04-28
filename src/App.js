@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
 
 import Header from './component/header/header.component';
 import { About } from './component/about/about.component';
