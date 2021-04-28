@@ -48,9 +48,9 @@ export const Career = () => {
               <div className='resume-block__header'>
                 <h4 className='h3'>{pos.company}</h4>
                 <p className='resume-block__header-meta'>
-                  <span>{pos.title}</span>
+                  <span>{pos.title}</span>{' '}
                   <span className='resume-block__header-date'>
-                    {pos.from} - {pos.to}
+                  {' '}{pos.from} - {pos.to}
                   </span>
                 </p>
               </div>
