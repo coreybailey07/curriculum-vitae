@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './contact.component.jsx'
+import './contact.style.scss'
 
 export const Contact = () => (
   <section id='contact' className='s-contact target-section'>
