@@ -11,8 +11,7 @@ const PortfolioModal = ({ portfolioModal }) => (
   portfolioModal.map((modal, i) => (
     <div key={i} id={modal.id} hidden>
       <div className='modal-popup'>
-        <img src={`images/portfolio/gallery/g-${modal.img}`} alt={modal.title} />
-
+        <img src={`images/portfolio/gallery/g-${modal.imgSrc}`} alt={modal.title} />
         <div className='modal-popup__desc'>
           <h5>{modal.title}</h5>
           <p>{modal.description}</p>
@@ -22,7 +21,6 @@ const PortfolioModal = ({ portfolioModal }) => (
             ))}
           </ul>
         </div>
-
         <a href={modal.projectLink} className='modal-popup__details'>Project link</a>
       </div>
     </div>
