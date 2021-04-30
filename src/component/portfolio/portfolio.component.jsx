@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import { selectPortfolioItem } from '../../redux/portfolio/portfolio.selector';
+import PortfolioModal from './portfolio-modal.component';
 
 import './portfolio.style.scss';
 
@@ -31,6 +32,8 @@ const Portfolio = ({ portfolio, portfolioPath }) => (
         </div>
       ))}
     </div>
+
+    <PortfolioModal />
 
   </section>
 
