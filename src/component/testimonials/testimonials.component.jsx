@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './testimonial.style.scss';
+import './testimonials.style.scss';
 
-export const Testimonial = () => (
+export const Testimonials = () => (
   <section id='testimonial' className='s-testimonials target-section'>
 
     <div className='s-testimonials__bg'></div>

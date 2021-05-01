@@ -7,7 +7,7 @@ import { About } from './component/about/about.component';
 import { Resume } from './component/resume/resume.component';
 import Portfolio from './component/portfolio/portfolio.component';
 import { Contact } from './component/contact/contact.component';
-import { Testimonial } from './component/testimonial/testimonial.component';
+import { Testimonials } from './component/testimonials/testimonials.component';
 import { CallToAction } from './component/call-to-action/call-to-action.component';
 import Footer from './component/footer/footer.component';
 
@@ -28,7 +28,7 @@ class App extends React.Component {
           <Resume />
           <Portfolio portfolioPath='images/portfolio/' />
           <CallToAction />
-          <Testimonial />
+          <Testimonials />
           <Contact />
         </main>
         <Footer />
