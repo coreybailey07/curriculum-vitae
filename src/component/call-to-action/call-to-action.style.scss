@@ -2,7 +2,7 @@
  * # CTA
  *
  * ------------------------------------------------------------------- */
- .s-cta {
+.s-cta {
   background-color: var(--color-gray-1);
   padding-top: var(--vspace-2_5);
   padding-bottom: var(--vspace-3_5);
@@ -11,63 +11,62 @@
   line-height: var(--vspace-1_25);
   text-align: center;
   position: relative;
-}
 
-.s-cta .section-desc {
-  margin-top: 0;
-}
+  & .section-desc {
+    margin-top: 0;
+  }
 
-.s-cta::before {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 20vw;
-  min-width: 150px;
-  background-color: var(--color-gray-3);
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  position: absolute;
-  top: 0;
-  left: 50%;
+  &::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 20vw;
+    min-width: 150px;
+    background-color: var(--color-gray-3);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
 }
-
 .cta-content {
   max-width: 800px;
-}
 
-.cta-content .btn {
-  max-width: 600px;
+  & .btn {
+    max-width: 600px;
+  }
 }
-
 /* ------------------------------------------------------------------- 
 * responsive:
 * cta
 * ------------------------------------------------------------------- */
 @media screen and (max-width: 800px) {
   .s-cta {
-      font-size: var(--text-md);
-      line-height: var(--vspace-1);
+    font-size: var(--text-md);
+    line-height: var(--vspace-1);
   }
   .cta-content {
-      max-width: 600px;
+    max-width: 600px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .s-cta .section-desc {
-      font-size: var(--text-xl);
-      line-height: var(--vspace-1_25);
+    font-size: var(--text-xl);
+    line-height: var(--vspace-1_25);
   }
 }
 
 @media screen and (max-width: 400px) {
   .s-cta {
-      padding-top: var(--vspace-3);
-      padding-bottom: var(--vspace-3);
-      font-size: var(--text-size);
-  }
-  .s-cta .section-desc {
+    padding-top: var(--vspace-3);
+    padding-bottom: var(--vspace-3);
+    font-size: var(--text-size);
+
+    & .section-desc {
       font-size: var(--text-lg);
       line-height: var(--vspace-1);
+    }
   }
 }
