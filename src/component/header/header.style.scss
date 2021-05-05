@@ -64,64 +64,64 @@
   position: absolute;
   right: 0;
   top: 0;
-}
 
-.s-header__menu-toggle .s-header__menu-icon {
-  display: block;
-  width: 30px;
-  height: 2px;
-  margin-top: -1px;
-  right: auto;
-  bottom: auto;
-  background-color: white;
-  position: absolute;
-  left: 19px;
-  top: 50%;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
+  & .s-header__menu-icon {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-top: -1px;
+    right: auto;
+    bottom: auto;
+    background-color: white;
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 
-.s-header__menu-toggle .s-header__menu-icon::before,
-.s-header__menu-toggle .s-header__menu-icon::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: inherit;
-  position: absolute;
-  left: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
+  & .s-header__menu-icon::before,
+  & .s-header__menu-icon::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 
-.s-header__menu-toggle .s-header__menu-icon::before {
-  top: -10px;
-}
+  & .s-header__menu-icon::before {
+    top: -10px;
+  }
 
-.s-header__menu-toggle .s-header__menu-icon::after {
-  bottom: -10px;
-}
+  & .s-header__menu-icon::after {
+    bottom: -10px;
+  }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon {
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
-}
+  &.is-clicked .s-header__menu-icon {
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+  }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::before,
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
-  background-color: white;
-}
+  &.is-clicked .s-header__menu-icon::before,
+  &.is-clicked .s-header__menu-icon::after {
+    background-color: white;
+  }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::before {
-  top: 0;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
+  &.is-clicked .s-header__menu-icon::before {
+    top: 0;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
 
-.s-header__menu-toggle.is-clicked .s-header__menu-icon::after {
-  bottom: 0;
-  -webkit-transform: rotate(225deg);
-  transform: rotate(225deg);
+  &.is-clicked .s-header__menu-icon::after {
+    bottom: 0;
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+  }
 }
 
 /* ------------------------------------------------------------------- 
