@@ -59,14 +59,15 @@
     min-width: 0;
   }
 
-/* ------------------------------------------------------------------- 
+  /* ------------------------------------------------------------------- 
  * ## swiper style overrides
  * ------------------------------------------------------------------- */
   & .swiper-container {
     padding-bottom: var(--vspace-2_5);
   }
 
-  & .swiper-container-horizontal
+  &
+    .swiper-container-horizontal
     .swiper-pagination-bullets
     .swiper-pagination-bullet {
     margin: 0 9px;
@@ -90,57 +91,57 @@
  * ------------------------------------------------------------------- */
 .testimonial-slider {
   position: relative;
-}
 
-.testimonial-slider p {
-  font-weight: 400;
-  font-size: 1.7rem;
-  line-height: var(--vspace-1);
-}
+  & p {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: var(--vspace-1);
+  }
 
-.testimonial-slider__slide {
-  position: relative;
-}
+  &__slide {
+    position: relative;
+  }
 
-.testimonial-slider__author {
-  display: inline-block;
-  min-height: var(--vspace-2);
-  margin-bottom: var(--vspace-0_5);
-  padding-left: 8.8rem;
-  position: relative;
-}
+  &__author {
+    display: inline-block;
+    min-height: var(--vspace-2);
+    margin-bottom: var(--vspace-0_5);
+    padding-left: 8.8rem;
+    position: relative;
+  }
 
-.testimonial-slider__avatar {
-  width: var(--vspace-2);
-  height: var(--vspace-2);
-  border-radius: 100%;
-  outline: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+  &__avatar {
+    width: var(--vspace-2);
+    height: var(--vspace-2);
+    border-radius: 100%;
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
-.testimonial-slider__cite {
-  display: block;
-}
+  &__cite {
+    display: block;
+  }
 
-.testimonial-slider__cite strong,
-.testimonial-slider__cite span {
-  font-style: normal;
-}
+  &__cite strong,
+  &__cite span {
+    font-style: normal;
+  }
 
-.testimonial-slider__cite strong {
-  font-size: calc(var(--text-size) * 0.944);
-  line-height: var(--vspace-0_5);
-  color: white;
-}
+  &__cite strong {
+    font-size: calc(var(--text-size) * 0.944);
+    line-height: var(--vspace-0_5);
+    color: white;
+  }
 
-.testimonial-slider__cite span {
-  display: block;
-  font-size: calc(var(--text-size) * 0.778);
-  font-weight: 300;
-  line-height: var(--vspace-0_5);
-  color: rgba(255, 255, 255, 0.6);
+  &__cite span {
+    display: block;
+    font-size: calc(var(--text-size) * 0.778);
+    font-weight: 300;
+    line-height: var(--vspace-0_5);
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 /* ------------------------------------------------------------------- 

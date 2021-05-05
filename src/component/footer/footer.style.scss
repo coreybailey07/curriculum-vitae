@@ -105,11 +105,12 @@
 @media screen and (max-width: 1000px) {
   .s-footer {
     padding-bottom: var(--vspace-2);
-  }
-  .s-footer__social {
-    margin-left: 0;
-    margin-bottom: var(--vspace-0_5);
-    top: 0;
+
+    &__social {
+      margin-left: 0;
+      margin-bottom: var(--vspace-0_5);
+      top: 0;
+    }
   }
   .ss-copyright {
     -ms-flex-order: 0;
@@ -144,8 +145,9 @@
 @media screen and (max-width: 500px) {
   .s-footer__social {
     font-size: var(--text-md);
-  }
-  .s-footer__social li {
-    margin-right: 1.4rem;
+
+    & li {
+      margin-right: 1.4rem;
+    }
   }
 }
