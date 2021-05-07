@@ -2,23 +2,23 @@
  * # contact
  *
  * ------------------------------------------------------------------- */
- .s-contact {
+.s-contact {
   background-color: var(--color-gray-18);
   padding-top: calc(6 * var(--space));
   padding-bottom: var(--vspace-3_5);
-}
 
-.s-contact .section-header-allcaps {
-  color: white;
-  margin-bottom: var(--vspace-2_5);
-}
+  & .section-header-allcaps {
+    color: white;
+    margin-bottom: var(--vspace-2_5);
+  }
 
-.s-contact .huge-text {
-  color: white;
-  margin-top: 0;
-  font-weight: 400;
-  font-size: 4.6rem;
-  line-height: 1.304;
+  & .huge-text {
+    color: white;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 4.6rem;
+    line-height: 1.304;
+  }
 }
 
 .s-contact__content [class*="column"]:last-child {
@@ -36,22 +36,23 @@
   font-size: 2.8rem;
   font-weight: 400;
   line-height: 1.286;
-}
 
-.contact-block a {
-  color: white;
-}
+  & a {
+    color: white;
+  }
 
-.contact-block a:hover, .contact-block a:focus {
-  color: var(--color-2);
-}
+  & a:hover,
+  & a:focus {
+    color: var(--color-2);
+  }
 
-.contact-block__header {
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
-  margin-top: 0;
-  margin-bottom: .2rem;
+  &__header {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+  }
 }
 
 /* ------------------------------------------------------------------- 
@@ -60,54 +61,60 @@
 * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   .s-contact {
-      padding-bottom: var(--vspace-2);
-  }
-  .s-contact__content .column {
+    padding-bottom: var(--vspace-2);
+
+    &__content .column {
       margin: 0;
-  }
-  .s-contact__content>.column:first-child {
+    }
+
+    &__content > .column:first-child {
       margin-bottom: var(--vspace-2);
+    }
   }
 }
 
 @media screen and (max-width: 800px) {
   .s-contact {
-      padding-top: var(--vspace-5);
-  }
-  .s-contact__header {
+    padding-top: var(--vspace-5);
+
+    &__header {
       text-align: center;
-  }
-  .s-contact .huge-text {
+    }
+
+    & .huge-text {
       font-size: 4.2rem;
+    }
   }
 }
 
 @media screen and (max-width: 600px) {
   .s-contact .huge-text {
-      font-size: 3.4rem;
+    font-size: 3.4rem;
   }
   .contact-block {
-      font-size: 2.6rem;
-  }
-  .contact-block__header {
+    font-size: 2.6rem;
+
+    &__header {
       font-size: 1.8rem;
+    }
   }
 }
 
 @media screen and (max-width: 400px) {
   .s-contact .huge-text {
-      font-size: 3.2rem;
-  }
-  .contact-block {
+    font-size: 3.2rem;
+
+    .contact-block {
       font-size: 2.2rem;
-  }
-  .contact-block__header {
+    }
+    &__header {
       font-size: 1.6rem;
+    }
   }
 }
 
 @media screen and (max-width: 360px) {
   .s-contact .huge-text {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 }

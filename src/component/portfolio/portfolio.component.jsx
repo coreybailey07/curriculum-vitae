@@ -21,8 +21,8 @@ const Portfolio = ({ portfolio, portfolioPath }) => (
       {portfolio.map((portfolio, i) => (
         <div key={i} className='column folio-item'>
           <a href={portfolio.href} className='folio-item__thumb'>
-            {portfolio.img.map((img, i) => (
-              <img
+            {portfolio.img.map((img, j) => (
+              <img key={j}
                 src={`${portfolioPath}${img.src}`}
                 srcSet={`${portfolioPath}${img.srcSet1}, ${portfolioPath}${img.srcSet2}`}
                 alt={img.alt}

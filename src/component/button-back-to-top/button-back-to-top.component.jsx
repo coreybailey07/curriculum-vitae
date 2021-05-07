@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './custom-button.style.scss';
+import './button-back-to-top.style.scss';
 
 export const BackToTop = () => (
   <div className='ss-go-top'>

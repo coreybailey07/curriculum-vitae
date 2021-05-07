@@ -2,7 +2,7 @@ import React from 'react';
 
 import './resume.style.scss';
 
-import { Career } from '../career/career.component';
+import Career from '../career/career.component';
 import { Education } from '../education/education.component';
 import { Skills } from '../skills/skills.component';
 

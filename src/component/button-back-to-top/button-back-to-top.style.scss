@@ -1,0 +1,57 @@
+/* ------------------------------------------------------------------- 
+ * ## go top
+ * ------------------------------------------------------------------- */
+.ss-go-top {
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(0, 200%);
+  transform: translate(0, 200%);
+  -webkit-transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  position: fixed;
+  bottom: 8rem;
+  right: 6.4rem;
+
+  & a {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0 none;
+    height: 6.4rem;
+    width: 6.4rem;
+    border-radius: 50%;
+    background-color: #050505;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+  }
+
+  & a:hover,
+  & a:focus {
+    background-color: var(--color-1);
+  }
+
+  & svg {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+
+  & svg path {
+    fill: white;
+  }
+
+  &.link-is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
