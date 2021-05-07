@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Button } from '../button/button.component';
+
 import './call-to-action.style.scss';
 
 export const CallToAction = () => (
@@ -20,8 +22,7 @@ export const CallToAction = () => (
                     Powerful web and Wordpress hosting. Guaranteed.
                     Starting at $2.95 per month.
                 </p>
-
-                <a href='https://www.dreamhost.com/r.cgi?287326' className='btn btn--primary h-full-width'>Get Started</a>
+                <Button value='Get Started' hyperLink='https://www.dreamhost.com/r.cgi?287326' />
             </div>
         </div>
 
