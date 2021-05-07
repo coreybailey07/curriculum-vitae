@@ -3,7 +3,7 @@ import React from 'react';
 import './testimonials.style.scss';
 
 export const Testimonials = () => (
-  <section id='testimonial' className='s-testimonials target-section'>
+  <section id='testimonials' className='s-testimonials target-section'>
 
     <div className='s-testimonials__bg'></div>
 
