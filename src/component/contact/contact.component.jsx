@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Button } from '../button/button.component';
+
 import './contact.style.scss'
 
 export const Contact = () => (
@@ -47,7 +49,8 @@ export const Contact = () => (
           </div>
 
           <div className='column large-12'>
-            <a href='mailto:sayhello@ceevee.com' className='mailtoui btn btn--primary h-full-width'>Let's Talk</a>
+            {/*<a href='mailto:sayhello@ceevee.com' className='mailtoui btn btn--primary h-full-width'>Let's Talk</a>*/}
+            <Button value='Let&apos;s Talk' hyperLink='mailto:sayhello@ceevee.com' />
           </div>
         </div>
 
