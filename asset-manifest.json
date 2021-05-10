@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dc1909e.chunk.css",
-    "main.js": "/static/js/main.aaf842b7.chunk.js",
-    "main.js.map": "/static/js/main.aaf842b7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3941e132.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3941e132.js.map",
-    "static/js/2.2a1ee37d.chunk.js": "/static/js/2.2a1ee37d.chunk.js",
-    "static/js/2.2a1ee37d.chunk.js.map": "/static/js/2.2a1ee37d.chunk.js.map",
-    "index.html": "/index.html",
-    "service-worker.js": "/service-worker.js",
-    "service-worker.js.map": "/service-worker.js.map",
-    "static/css/main.1dc1909e.chunk.css.map": "/static/css/main.1dc1909e.chunk.css.map",
-    "static/js/2.2a1ee37d.chunk.js.LICENSE.txt": "/static/js/2.2a1ee37d.chunk.js.LICENSE.txt",
-    "static/media/hero.style.scss": "/static/media/header-bg-3000.039f8630.jpg",
-    "static/media/portfolio.style.scss": "/static/media/icon-tag.a2aed8f2.svg",
-    "static/media/testimonials.style.scss": "/static/media/testimonials-bg-3000.5aaf5922.jpg"
+    "main.css": "/curriculum-vitae/static/css/main.5877151d.chunk.css",
+    "main.js": "/curriculum-vitae/static/js/main.1ad0902e.chunk.js",
+    "main.js.map": "/curriculum-vitae/static/js/main.1ad0902e.chunk.js.map",
+    "runtime-main.js": "/curriculum-vitae/static/js/runtime-main.b5400218.js",
+    "runtime-main.js.map": "/curriculum-vitae/static/js/runtime-main.b5400218.js.map",
+    "static/js/2.2a1ee37d.chunk.js": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js",
+    "static/js/2.2a1ee37d.chunk.js.map": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js.map",
+    "index.html": "/curriculum-vitae/index.html",
+    "service-worker.js": "/curriculum-vitae/service-worker.js",
+    "service-worker.js.map": "/curriculum-vitae/service-worker.js.map",
+    "static/css/main.5877151d.chunk.css.map": "/curriculum-vitae/static/css/main.5877151d.chunk.css.map",
+    "static/js/2.2a1ee37d.chunk.js.LICENSE.txt": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js.LICENSE.txt",
+    "static/media/hero.style.scss": "/curriculum-vitae/static/media/header-bg-3000.039f8630.jpg",
+    "static/media/portfolio.style.scss": "/curriculum-vitae/static/media/icon-tag.a2aed8f2.svg",
+    "static/media/testimonials.style.scss": "/curriculum-vitae/static/media/testimonials-bg-3000.5aaf5922.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3941e132.js",
+    "static/js/runtime-main.b5400218.js",
     "static/js/2.2a1ee37d.chunk.js",
-    "static/css/main.1dc1909e.chunk.css",
-    "static/js/main.aaf842b7.chunk.js"
+    "static/css/main.5877151d.chunk.css",
+    "static/js/main.1ad0902e.chunk.js"
   ]
 }
