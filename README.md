@@ -1,7 +1,7 @@
 Curriculum Vitae
 ================
 
-[Curriculum-Vitae](https://coreybailey07.github.io/curriculum-vitae) is an excercise in ReactJS component development.
+[Curriculum-Vitae](https://coreybailey07.github.io/curriculum-vitae) is an excercise in React component development.
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/coreybailey07/curriculum-vitae)
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/coreybailey07/curriculum-vitae?include_prereleases)
