@@ -219,14 +219,17 @@
   visibility: hidden;
   opacity: 0;
 }
+
 .ss-preload .s-hero__content {
   opacity: 0;
 }
+
 .ss-loaded .s-header,
 .ss-loaded .s-hero {
   visibility: visible;
   opacity: 1;
 }
+
 .ss-loaded .s-hero__content {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
