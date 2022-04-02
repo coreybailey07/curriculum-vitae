@@ -1,25 +1,17 @@
 {
   "files": {
-    "main.css": "/curriculum-vitae/static/css/main.5877151d.chunk.css",
-    "main.js": "/curriculum-vitae/static/js/main.1ad0902e.chunk.js",
-    "main.js.map": "/curriculum-vitae/static/js/main.1ad0902e.chunk.js.map",
-    "runtime-main.js": "/curriculum-vitae/static/js/runtime-main.b5400218.js",
-    "runtime-main.js.map": "/curriculum-vitae/static/js/runtime-main.b5400218.js.map",
-    "static/js/2.2a1ee37d.chunk.js": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js",
-    "static/js/2.2a1ee37d.chunk.js.map": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js.map",
-    "index.html": "/curriculum-vitae/index.html",
+    "main.css": "/curriculum-vitae/static/css/main.d9d7e22a.css",
+    "main.js": "/curriculum-vitae/static/js/main.ee4b25fc.js",
+    "static/media/header-bg-3000.jpg": "/curriculum-vitae/static/media/header-bg-3000.039f8630048560801a29.jpg",
+    "static/media/testimonials-bg-3000.jpg": "/curriculum-vitae/static/media/testimonials-bg-3000.5aaf5922c3b53dbc4f0a.jpg",
     "service-worker.js": "/curriculum-vitae/service-worker.js",
-    "service-worker.js.map": "/curriculum-vitae/service-worker.js.map",
-    "static/css/main.5877151d.chunk.css.map": "/curriculum-vitae/static/css/main.5877151d.chunk.css.map",
-    "static/js/2.2a1ee37d.chunk.js.LICENSE.txt": "/curriculum-vitae/static/js/2.2a1ee37d.chunk.js.LICENSE.txt",
-    "static/media/hero.style.scss": "/curriculum-vitae/static/media/header-bg-3000.039f8630.jpg",
-    "static/media/portfolio.style.scss": "/curriculum-vitae/static/media/icon-tag.a2aed8f2.svg",
-    "static/media/testimonials.style.scss": "/curriculum-vitae/static/media/testimonials-bg-3000.5aaf5922.jpg"
+    "index.html": "/curriculum-vitae/index.html",
+    "static/media/icon-tag.svg": "/curriculum-vitae/static/media/icon-tag.a2aed8f20b9bae93d02e.svg",
+    "main.d9d7e22a.css.map": "/curriculum-vitae/static/css/main.d9d7e22a.css.map",
+    "main.ee4b25fc.js.map": "/curriculum-vitae/static/js/main.ee4b25fc.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5400218.js",
-    "static/js/2.2a1ee37d.chunk.js",
-    "static/css/main.5877151d.chunk.css",
-    "static/js/main.1ad0902e.chunk.js"
+    "static/css/main.d9d7e22a.css",
+    "static/js/main.ee4b25fc.js"
   ]
 }
