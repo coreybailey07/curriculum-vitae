@@ -11,8 +11,8 @@ import { Testimonials } from './component/testimonials/testimonials.component';
 import { CallToAction } from './component/call-to-action/call-to-action.component';
 import Footer from './component/footer/footer.component';
 
-
 class App extends React.Component {
+  
   constructor() {
     super();
 
@@ -35,6 +35,7 @@ class App extends React.Component {
       </div>
     );
   }
+
 }
 
 export default App;
