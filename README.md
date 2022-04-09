@@ -9,6 +9,4 @@ Curriculum Vitae
 
 ## About
 
-Curriculum-Vitae builds on the work of © [Ceevee 2021](LICENSE.txt) by StyleShout.
-
-This project was bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
+Curriculum-Vitae builds on the work of © [Ceevee 2021](LICENSE.txt) by StyleShout. Project bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
